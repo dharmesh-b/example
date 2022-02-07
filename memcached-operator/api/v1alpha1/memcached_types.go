@@ -36,6 +36,10 @@ type MemcachedSpec struct {
 type MemcachedStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
+<<<<<<< HEAD
+=======
+	Nodes []string `json:"nodes"`
+>>>>>>> 9bb268520e77da2a7075b80d683057cc209836d7
 }
 
 //+kubebuilder:object:root=true
