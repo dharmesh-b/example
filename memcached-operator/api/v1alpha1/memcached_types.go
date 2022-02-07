@@ -31,8 +31,8 @@ type MemcachedSpec struct {
 	// Foo is an example field of Memcached. Edit memcached_types.go to remove/update
 	Foo string `json:"foo,omitempty"`
 	//+kubebuilder:validation:Minimum=0
-  	// Size is the size of the memcached deployment
-  	Size int32 `json:"size"`
+	// Size is the size of the memcached deployment
+	Size int32 `json:"size"`
 }
 
 // MemcachedStatus defines the observed state of Memcached
@@ -40,7 +40,7 @@ type MemcachedStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
 	// Nodes are the names of the memcached pods
-  	Nodes []string `json:"nodes"`
+	Nodes []string `json:"nodes"`
 }
 
 //+kubebuilder:object:root=true
